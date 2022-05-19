@@ -1,6 +1,6 @@
-# Git commands
+# Git CheatSheet
 
-This is a git cheatsheet.
+This is a git cheatsheet containing the basic Git workflows.
 
 ## Git Commands
 
