@@ -32,7 +32,7 @@ git commit -m <message> -m <description> --> commit changes of tracked files loc
   
 To push new local file, go to github and create new empty repo with name <newRepo> and copy SSH adress <SSH address>
 
-git remote add origin <SSH address> --> create connection between local and github repo (only necessary once)
+git remote add origin "<SSH address>" --> create connection between local and github repo (only necessary once)
 
 git remote -v --> check all remote repositories connected to this repo
   
