@@ -16,7 +16,7 @@ pull --> Download changes from remote repo to local machine (opposite of push)
 
 ## Clone repo from Github
 
-git clone <SSH address> --> run this in the directory you want to clone the repo to
+git clone \<SSH address\> --> run this in the directory you want to clone the repo to
   
 ls -la --> shows all files, including hidden --> verify that .git folder exists
   
@@ -26,11 +26,11 @@ git init --> initialize Git repo
 
 git status --> check untracked or changed files
 
-git add <filename> or git add . (all files) --> add files for commit
+git add \<filename\> or git add . (all files) --> add files for commit
   
-git commit -m <message> -m <description> --> commit changes of tracked files locally
+git commit -m \<message\> -m \<description\> --> commit changes of tracked files locally
   
-To push new local file, go to github and create new empty repo with name <newRepo> and copy SSH adress <SSH address>
+To push new local file, go to github and create new empty repo with name \<newRepo\> and copy SSH adress \<SSH address\>
 
 git remote add origin \<SSH address\> --> create connection between local and github repo (only necessary once)
 
