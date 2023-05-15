@@ -4,15 +4,19 @@ This is a git cheatsheet containing the basic Git workflows.
 
 ## Git Commands
 
-clone --> Bring a hosted repo to your local machine
+git clone --> Bring a hosted repo to your local machine
 
-add --> track files and changes in Git
+git add --> track files and changes in Git
 
-commit --> Save your files in Git
+git remote add origin <SSH-Address> --> link local git repo to existing empty online repo
 
-push --> Upload Git commits to a remote repo
+git remote set-url origin <SSH-Address> --> update the linked remote url to a new repository
 
-pull --> Download changes from remote repo to local machine (opposite of push)
+git commit --> Save your files in Git
+
+git push --> Upload Git commits to a remote repo
+
+git pull --> Download changes from remote repo to local machine (opposite of push)
 
 ## Clone repo from Github
 
